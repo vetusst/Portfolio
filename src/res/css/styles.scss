@@ -84,7 +84,6 @@ a {
 
     h1 {
         font-size: 8vw;
-        // font-family: "Calluna", sans-serif;
         font-family: "Poppins", sans-serif;
         margin: 0;
         font-weight: 300;
@@ -108,15 +107,10 @@ a {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    // min-width: 100%;
-    // min-height: 100%;
-    // width: 100%;
     height: 100%;
     width: 177.77777778vh;
-    /* 100 * 16 / 9 */
     min-width: 100%;
     min-height: 56.25vw;
-    /* 100 * 9 / 16 */
     z-index: -1;
 }
 
@@ -192,12 +186,6 @@ a {
 // ABOUT SECTION
 // ---------------------------------------------------------------------------
 
-// #tsparticles1, #tsparticles2 {
-//     // position: absolute !important;
-//     position: relative !important;
-//     opacity: 0.5;
-//     z-index: -1 !important
-// }
 .particles {
     position:absolute;
     width: 100%;
@@ -463,12 +451,6 @@ a {
     }
 }
 
-// .about__devSvgs {
-//     display: grid;
-//     grid-template-columns: repeat(5, 1fr);
-//     grid-template-rows: repeat(5, 1fr);
-//     gap: 0px 0px;
-// }
 
 
 #svg-react {
@@ -481,7 +463,6 @@ a {
     justify-self: center;
     align-self: center;
     grid-area: 3 / 3 / 4 / 4;
-    // width: 100%;
 }
 
 #svg-git {
@@ -494,7 +475,6 @@ a {
     justify-self: center;
     align-self: center;
     grid-area: 2 / 1 / 3 / 2;
-    // width: 105%;
     width: 4.3vw;
 }
 
@@ -502,7 +482,6 @@ a {
     justify-self: center;
     align-self: center;
     grid-area: 3 / 1 / 4 / 2;
-    // width: 105%;
     width: 4.3vw;
 }
 
@@ -510,8 +489,6 @@ a {
     justify-self: center;
     align-self: center;
     grid-area: 3 / 2 / 5 / 3;
-    // width: 90%;
-    // margin: 1vw;
     width: 3.1vw;
 }
 
@@ -519,56 +496,7 @@ a {
     justify-self: center;
     align-self: center;
     grid-area: 1 / 2 / 3 / 3;
-    // width: 95%;
 }
-
-// box-icon[name="react"] {
-//     justify-self: center;
-//     align-self: center;
-//     grid-area: 2 / 2 / 4 / 3;
-// }
-
-// box-icon[name="python"] {
-//     justify-self: center;
-//     align-self: center;
-//     grid-area: 3 / 3 / 4 / 4;
-//     width: 100%;
-// }
-
-// box-icon[name="git"] {
-//     justify-self: center;
-//     align-self: center;
-//     grid-area: 2 / 3 / 3 / 4;
-// }
-
-// box-icon[name="html5"] {
-//     justify-self: center;
-//     align-self: center;
-//     grid-area: 2 / 1 / 3 / 2;
-//     width: 105%;
-// }
-
-// box-icon[name="css3"] {
-//     justify-self: center;
-//     align-self: center;
-//     grid-area: 3 / 1 / 4 / 2;
-//     width: 105%;
-// }
-
-// box-icon[name="javascript"] {
-//     justify-self: center;
-//     align-self: center;
-//     grid-area: 3 / 2 / 5 / 3;
-//     width: 90%;
-//     margin: 1vw;
-// }
-
-// box-icon[name="nodejs"] {
-//     justify-self: center;
-//     align-self: center;
-//     grid-area: 1 / 2 / 3 / 3;
-//     width: 95%;
-// }
 
 .about__divider {
     height: 100%;
@@ -791,24 +719,6 @@ a {
 // PROJECTS SECTION
 // ----------------------------------------------------------------------------------------
 
-// .projects-scrollable {
-//     overflow: scroll;
-//     height: 80%;
-//     width: 80%;
-
-//     h1 {
-//         font-size: 21em;
-//     }
-
-//     &::-webkit-scrollbar {
-//         display: none;
-//     }
-
-//     -ms-overflow-style: none;
-//     /* IE and Edge */
-//     scrollbar-width: none;
-//     /* Firefox */
-// }
 #menu-btn {
     display: none;
 }
@@ -898,13 +808,9 @@ a {
                 letter-spacing: 3px;
                 display: flex;
                 align-items: center;
-                // justify-content: space-around;
                 gap: 5px;
                 font-size: 1.2vw;
                 border-radius: 10px;
-                // border-radius: 0.8vw;
-
-
                 svg {
                     width: 1.5vw;
                 }
@@ -976,47 +882,6 @@ a {
 
 }
 
-
-// .projects__projectCards {
-//     grid-area: 2 / 2 / 6 / 5;
-// }
-// .slide .fp-tableCell {
-//     width: 0;
-//     display: none;
-// }
-
-// .fp-slides {
-//     justify-self: center;
-//     grid-area: 2 / 2 / 6 / 5;
-//     width: 95%;
-
-//     .slide {
-//         display: flex !important;
-//         flex-direction: row;
-//         justify-content: center;
-//         align-items: center;
-//         gap: 7%;
-//     }
-// }
-
-// .fp-prev {
-//     border-color: transparent #000 transparent transparent !important;
-//     left: 10% !important;
-// }
-
-// .fp-next {
-//     border-color: transparent transparent transparent #000 !important;
-//     right: 10% !important;
-// }
-
-// .fp-slidesNav {
-//     grid-area: 6 / 2 / 7 / 5;
-
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     position: relative !important;
-// }
 #swiper-wrapper {
     grid-area: 2 / 2 / 6 / 5;
     width: 100%;
@@ -1032,20 +897,6 @@ a {
     align-items: center;
 }
 
-// .swiper-slide .projectCard {
-//     transition: opacity .5s;
-//     opacity: .7;
-// }
-// .swiper-slide-active .projectCard {
-//     transition: opacity .5s;
-//     transition-delay: .2s;
-//     opacity: 1;
-// }
-// .swiper-slide-duplicate-prev .projectCard, .swiper-slide-duplicate-next .projectCard {
-//     // transition: opacity .5s;
-//     // opacity: 0;
-//     visibility: hidden !important;
-// }
 .swiper-slide .projectCard {
     transition: opacity .5s;
     opacity: 0;
@@ -1395,7 +1246,6 @@ a {
     align-items: flex-end;
 
     .form-title span {
-        // text-transform: uppercase;
         font-size: 2.5vw;
         width: 100%;
         line-height: 2.7vw;
@@ -1427,7 +1277,6 @@ a {
             -webkit-box-shadow: none
         }
 
-        // transition: all .3s ease-in-out;
         &:focus,
         &:active,
         &:hover,
@@ -1439,7 +1288,6 @@ a {
 
         font-size: 1vw;
         font-weight: 300;
-        // border: 2px solid #101010;
         border: 1px solid #0e0e0e;
         border-bottom: 2px solid $main-text-color;
         background-color: #101010;
@@ -1765,8 +1613,6 @@ a {
     }
 }
 
-// todo input's borders on autofill, tablet styles
-
 .sideNav {
     position: absolute;
     right: 0%;
@@ -1800,7 +1646,6 @@ a {
         top: -30px;
         left: 5%;
         transition: .5s;
-        // padding: 10px;
         &:hover {
             transform: translateY(35px);
         }
@@ -1830,7 +1675,6 @@ a {
 #rotation-request {
     display: none;
 }
-
 
 @media screen and (orientation: landscape) and (max-height: 450px) {
     .sideNav {
