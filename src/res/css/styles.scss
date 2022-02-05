@@ -667,10 +667,8 @@ a {
         .about__skillsContent {
             justify-content: space-around;
             margin-left: 0;
-
             .about__devSvgs {
                 gap: 5px 0;
-
                 svg {
                     width: 10vw !important;
                     height: 10vw;
@@ -685,39 +683,30 @@ a {
                     height: 9vw;
                 }
             }
-
             .about__softSkills ul li {
                 line-height: 7vw;
                 font-size: 3.2vw;
             }
-
         }
-
         .about__languages {
             gap: 5vw;
             margin-bottom: 3vh;
-
             h2 {
                 font-size: 5.5vw;
             }
-
             .languagesContainer {
                 img {
                     width: 9vw;
                 }
             }
         }
-
         .about__desktopSvg img {
             width: 27vh;
         }
-
     }
 }
 
-// ----------------------------------------------------------------------------------------
 // PROJECTS SECTION
-// ----------------------------------------------------------------------------------------
 
 #menu-btn {
     display: none;
@@ -740,8 +729,6 @@ a {
         background-size: cover;
         position: relative;
         border-radius: 0.8vw;
-
-
         .mask {
             position: absolute;
             right: -5%;
@@ -753,7 +740,6 @@ a {
             z-index: 3;
 
         }
-
         .imgMobile {
             position: absolute;
             right: -5%;
@@ -773,7 +759,6 @@ a {
         background-color: #FAFAFA;
         padding: 1vw;
         border-radius: 15px;
-
         h2 {
             vertical-align: middle;
             letter-spacing: 2px;
@@ -814,9 +799,7 @@ a {
                 svg {
                     width: 1.5vw;
                 }
-
                 transition: all .2s ease;
-
                 &:hover {
                     background-color: #000;
                     color: $main-text-color;
@@ -841,26 +824,22 @@ a {
     width: max-content;
     display: flex;
     align-items: center;
-
     img {
         margin-right: 1.3vw;
         width: 3.5vw;
         display: inline-block;
     }
-
     h1 {
         letter-spacing: normal;
         font-size: 3.5vw;
         text-transform: uppercase;
         font-weight: 500;
         color: $main-text-color2;
-
         span {
             color: $primary-color
         }
     }
 }
-
 .projects-wrapper .section-name {
     justify-self: center;
     align-self: center;
@@ -870,18 +849,14 @@ a {
         color: $main-text-color2;
     }
 }
-
 .projects__navbar {
     justify-self: center;
     grid-area: 1 / 5 / 7 / 6;
     z-index: 2;
-
     span {
         color: $main-text-color2
     }
-
 }
-
 #swiper-wrapper {
     grid-area: 2 / 2 / 6 / 5;
     width: 100%;
@@ -890,35 +865,29 @@ a {
     align-self: center;
     overflow: visible;
 }
-
 .swiper-slide {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .swiper-slide .projectCard {
     transition: opacity .5s;
     opacity: 0;
 }
-
 .swiper-slide-active .projectCard {
     transition: opacity .3s;
     opacity: 1;
 }
-
 .swiper-slide-prev .projectCard,
 .swiper-slide-next .projectCard {
     transition: opacity .3s;
     opacity: .7;
     pointer-events: none
 }
-
 .swiper-pagination {
     bottom: -10% !important;
     overflow: visible;
     width: fit-content !important;
-
     span {
         width: 0.5vw;
         height: 0.5vw;
@@ -949,7 +918,6 @@ a {
             flex-direction: column;
         }
     }
-
     .projectCard {
         width: 56vw;
         height: 42vw;
@@ -971,16 +939,13 @@ a {
     .projects__title {
         grid-area: 1 / 1 / 2 / 4;
         margin-left: 4vw;
-
         img {
             width: 5.5vw;
         }
-
         h1 {
             font-size: 4.7vw;
         }
     }
-
     .projectCard .projectCard-visualisation .mask {
         border-radius: 1.4vw;
     }
@@ -988,51 +953,41 @@ a {
     .projectCard .projectCard-visualisation .imgMobile {
         border-radius: 1.5vw;
     }
-
     .projectCard .projectCard-bottom {
         padding: 2vw;
-
         h2 {
             font-size: 2.3vw;
             line-height: 1vw;
         }
-
         p {
             margin-top: 1.5vw;
             font-size: 1.8vw;
             line-height: 3vw;
         }
-
         .projectCard-buttons {
             width: 90%;
             justify-content: center;
             column-gap: 35%;
-
             a {
                 transform: scale(1.7);
             }
         }
     }
-
     .swiper-slide {
         display: flex;
         flex-direction: column;
         justify-content: center;
         row-gap: 5%;
     }
-
     #swiper-wrapper-mobile {
         height: 75vh;
     }
-
     .swiper-pagination {
         bottom: 7% !important;
-
         span {
             width: 1vw;
             height: 1vw;
         }
-
         left: 42% !important;
     }
 
@@ -1061,7 +1016,6 @@ a {
         margin-top: 2.5vh;
         align-self: start;
         grid-area: 1 / 1 / 2 / 6;
-
         .side-section-name {
             font-size: 4vw;
             writing-mode: unset;
@@ -1090,7 +1044,6 @@ a {
         .swiper-slide {
             width: 100%;
         }
-
         .swiper-pagination {
             left: 48% !important;
             bottom: 5% !important;
@@ -1121,50 +1074,40 @@ a {
 
             .projectCard-buttons {
                 column-gap: 20%;
-
                 a {
                     padding: 1.3%;
                     letter-spacing: 1px;
                     font-size: 3vw;
-
-
                     svg {
                         width: 4vw;
                     }
-
                     span {
                         width: max-content;
                     }
-
                     transform: scale(1);
                 }
             }
         }
 
     }
-
     .fp-controlArrow.fp-prev {
         position: absolute;
         left: 3% !important;
         top: 57%;
         border-width: 20px 20px 20px 0 !important;
     }
-
     .fp-controlArrow.fp-next {
         position: absolute;
         right: 3% !important;
         top: 57%;
         border-width: 20px 0 20px 20px !important;
     }
-
     .projectCard .projectCard-visualisation .mask {
         border-radius: 1.7vw;
     }
-
     .projectCard .projectCard-visualisation .imgMobile {
         border-radius: 1.9vw;
     }
-
     .fp-slidesNav.fp-bottom {
         width: max-content;
         position: absolute;
@@ -1175,10 +1118,7 @@ a {
     }
 }
 
-
-// ---------------------------------------------------------------------------------------------------
 // CONTACT SECTION
-// ---------------------------------------------------------------------------------------------------
 
 .contact-wrapper {
     background-color: #101010
@@ -1202,23 +1142,19 @@ a {
     justify-self: start;
     align-self: center;
     grid-area: 1 / 2 / 2 / 4;
-
     width: max-content;
     display: flex;
     align-items: center;
-
     img {
         margin-right: 1.3vw;
         width: 3.5vw;
         display: inline-block;
     }
-
     h1 {
         letter-spacing: normal;
         font-size: 3.5vw;
         text-transform: uppercase;
         font-weight: 500;
-
         span {
             color: $primary-color
         }
@@ -1234,8 +1170,6 @@ a {
     justify-self: center;
     align-self: start;
     grid-area: 2 / 2 / 5 / 4;
-
-
     position: relative;
     height: 55vh;
     width: 27vw;
@@ -1244,13 +1178,11 @@ a {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
-
     .form-title span {
         font-size: 2.5vw;
         width: 100%;
         line-height: 2.7vw;
     }
-
     form input,
     form textarea {
         width: 100%;
@@ -1259,16 +1191,13 @@ a {
         padding: 1vw;
         border-radius: 0.5vw;
         color: $main-text-color;
-
         -webkit-user-select: auto;
         -moz-user-select: auto;
         -ms-user-select: auto;
         user-select: auto;
-
         &::placeholder {
             color: $main-text-color;
         }
-
         &:-webkit-autofill,
         &:-webkit-autofill:hover,
         &:-webkit-autofill:focus,
@@ -1276,7 +1205,6 @@ a {
             -webkit-transition: "color 9999s ease-out, background-color 9999s ease-out";
             -webkit-box-shadow: none
         }
-
         &:focus,
         &:active,
         &:hover,
@@ -1284,21 +1212,17 @@ a {
             border: 1px solid $main-text-color;
             border-bottom: 2px solid $main-text-color;
         }
-
-
         font-size: 1vw;
         font-weight: 300;
         border: 1px solid #0e0e0e;
         border-bottom: 2px solid $main-text-color;
         background-color: #101010;
     }
-
     form textarea {
         resize: none;
         height: 10vh;
         margin-bottom: 0;
     }
-
 }
 
 .projects__divider {
@@ -1313,22 +1237,17 @@ a {
     justify-self: center;
     align-self: start;
     grid-area: 2 / 4 / 5 / 5;
-
     height: 55vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
-
     .detailsHeader {
         display: flex;
-
         h2 {
             margin-left: 2vw;
             font-size: 2.7vw;
         }
     }
-
     .detailsContactInfo p {
         line-height: 7vh;
         font-size: 1.5vw;
@@ -1341,14 +1260,11 @@ a {
     justify-self: center;
     align-self: end;
     grid-area: 5 / 1 / 6 / 6;
-
     display: flex;
     width: 30%;
     justify-content: space-between;
-
     svg {
         width: 2vw;
-
     }
 }
 
@@ -1372,9 +1288,7 @@ a {
     -moz-box-shadow: 2px 3px 2px 0px $main-text-color;
     box-shadow: 2px 3px 2px 0px $main-text-color;
     cursor: pointer;
-
     transition: all .3s ease;
-
     &:hover {
         color: #001F3F;
         background-color: #fff;
@@ -1382,11 +1296,8 @@ a {
         -moz-box-shadow: 3px 3px 3px 0px #101010;
         box-shadow: 2px 2px 3px 0px #101010;
     }
-
     &:active {
         transition: all .1s ease;
-        // background-color: #101010;
-        // color: #fff;
         transform: scale(0.95);
     }
     &.button-sent {
@@ -1404,22 +1315,17 @@ a {
     letter-spacing: 2px;
 }
 
-
 @media only screen and (max-width: 1160px) {
     .contact-wrapper .fp-tableCell {
         grid-template-columns: 10% 10% 30% 30% 1fr;
         grid-template-rows: 0.8fr repeat(3, 1fr) 1fr 0.3fr;
     }
-
-
     .contact__title {
         grid-area: 1 / 1 / 2 / 4;
         margin-left: 4vw;
-
         img {
             width: 5.5vw;
         }
-
         h1 {
             font-size: 4.7vw;
         }
@@ -1436,7 +1342,6 @@ a {
             img {
                 width: 7vw;
             }
-
             h2 {
                 margin-left: 3vw;
                 font-size: 4vw;
@@ -1444,19 +1349,16 @@ a {
                 font-weight: 300;
             }
         }
-
         .detailsContactInfo p {
             line-height: 3vh;
             font-size: 2.5vw;
             letter-spacing: 4px;
         }
     }
-
     .projects__divider {
         display: none;
         transform: rotate(90deg) translate(-45%, 0);
     }
-
     .contact_formWrapper {
         align-self: center;
         justify-self: center;
@@ -1464,31 +1366,25 @@ a {
         height: auto;
         width: 85%;
         height: 35vh;
-
         .form-title {
             align-self: start;
-
             span {
                 font-size: 4vw;
                 line-height: normal;
             }
         }
-
         form {
             width: 100%;
-
             input,
             textarea {
                 font-size: 2.1vw;
                 height: 4vh;
             }
-
             textarea {
                 height: 7vh;
             }
         }
     }
-
     .contact__button {
         align-self: end;
         width: 18vw;
@@ -1496,7 +1392,6 @@ a {
 
     .contact__footerLinks {
         width: 40%;
-
         svg {
             width: 5vw;
         }
@@ -1508,13 +1403,11 @@ a {
         grid-template-columns: 10% 10% 30% 30% 1%;
         grid-template-columns: 0% repeat(3, 1fr);
         grid-template-rows: 1fr repeat(3, 1fr) 0.7fr 0.3fr;
-
         .section-name {
             margin-top: 2.5vh;
             grid-area: 1 / 1 / 1 / 5;
             justify-self: center;
             align-self: start;
-
             .side-section-name {
                 font-size: 4vw;
                 writing-mode: unset;
@@ -1522,41 +1415,33 @@ a {
                 text-transform: uppercase;
             }
         }
-
         .contact_formWrapper {
             width: 80%;
             height: 30vh;
             justify-content: flex-start;
             row-gap: 2vh;
-
             form {
                 input {
                     width: 45%;
                 }
-
                 input[name="e-mail"] {
                     float: right;
                 }
-
                 input,
                 textarea {
                     font-size: 3.5vw;
                     height: 4.5vh;
-
                     &:active,
                     &:focus {
                         background-color: #151515;
                     }
-
                     border-radius: 1vw;
                 }
-
                 textarea {
                     height: 12vh;
                 }
             }
         }
-
         .contact__detailsWrapper {
             position: relative;
             width: 80%;
@@ -1629,17 +1514,13 @@ a {
     overflow-x: hidden;
     transition: 0.5s;
     width: 0;
-
     a {
         display: block;
     }
 }
-
 .nav-active {
     width: 25%;
 }
-
-
 @media only screen and (min-width: 1160px) {
     .settings {
         position: absolute;
@@ -1652,7 +1533,6 @@ a {
         svg {
             width: 30px;
         }
-
         .settings-body svg {
             cursor: pointer;
             opacity: .6;
@@ -1670,7 +1550,6 @@ a {
     .projects-wrapper .settings svg {
         color: $main-text-color2;
     }
-
 }
 #rotation-request {
     display: none;
