@@ -1,5 +1,6 @@
 const particlesConfig = {
     about: {
+        fpsLimit: 60,
         autoPlay: false,
         "background": {
             "color": {
@@ -109,6 +110,7 @@ const particlesConfig = {
         }
     },
     projects: {
+        fpsLimit: 60,
         autoPlay: true,
         "background": {
             "color": {
