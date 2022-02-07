@@ -11,8 +11,8 @@ const projectsData = [
         mobileViewImg : null,
         projectTitle : 'Weather App',
         projectDescription : 'Simple Weather App on Vanilla Js, with the use of a couple of APIs',
-        githubLink : 'https://github.com/vetusst/Virtual-Keyboard',
-        deployLink : 'https://vetusst.github.io/Virtual-Keyboard/',
+        githubLink : 'https://github.com/vetusst/Fancy-weather',
+        deployLink : 'https://weather-fancy.netlify.app/',
     },
     {
         projectName: 'Portfolio',
@@ -20,8 +20,8 @@ const projectsData = [
         mobileViewImg : portfolioMobile,
         projectTitle : 'Profile Page',
         projectDescription : 'First version of my Profile Page on React',
-        githubLink : 'null',
-        deployLink : 'null',
+        githubLink : 'https://github.com/vetusst/Portfolio',
+        deployLink : 'https://dmelnikav.tech/',
     },
     {
         projectName: 'Virtual Keyboard',
@@ -29,8 +29,8 @@ const projectsData = [
         mobileViewImg : null,
         projectTitle : 'Virtual Keyboard',
         projectDescription : 'Virtual Keyboard where all elements are generated via DOM.',
-        githubLink : 'https://github.com/vetusst/Fancy-weather',
-        deployLink : 'https://weather-fancy.netlify.app/',
+        githubLink : 'https://github.com/vetusst/Virtual-Keyboard',
+        deployLink : 'https://vetusst.github.io/Virtual-Keyboard/',
     },
     
     
