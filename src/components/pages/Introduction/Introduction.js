@@ -1,8 +1,8 @@
-import React, { useRef, useEffect } from "react";
-import BackgroundVideoMP4 from "../res/img/BlockChainBackground.mp4";
-import BackgroundVideoWebM from "../res/img/BlockChainBackground.webm";
-import BackgroundGif from "../res/img/BlockChainBackgroundGif.gif";
-import introDivider from "../res/img/intro-divider.svg"
+import React from "react";
+import BackgroundVideoMP4 from "../../../res/img/BlockChainBackground.mp4";
+import BackgroundVideoWebM from "../../../res/img/BlockChainBackground.webm";
+import BackgroundGif from "../../../res/img/BlockChainBackgroundGif.gif";
+import introDivider from "../../../res/img/intro-divider.svg"
 
 const Introduction = (props) => {
   return (
@@ -14,8 +14,8 @@ const Introduction = (props) => {
       <nav className="navbar-main">
             <a className="underline" href="#intro" >Home</a>
             <a className="underline" href="#about" >About</a>
-            <a className="underline" href="#projects" >Projects</a>
-            <a className="underline" href="#contact" >Contact</a>
+            <a className="underline" href="#projects">Projects</a>
+            <a className="underline" href="#contact">Contact</a>
       </nav>
       <div className="intro-wrapper-main">
           <h1>Daniil Melnikav</h1>

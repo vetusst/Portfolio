@@ -1,8 +1,6 @@
-import maskWhite from '../res/img/iphone-mask-white-png.png'
+import maskWhite from '../../../res/img/iphone-mask-white-png.png'
 import { FaWifi } from "react-icons/fa"
 import { FaGithub } from "react-icons/fa"
-// import { IoLogoGithub } from "react-icons/io"
-
 
 const Project = ({project}) => {
     return (

@@ -1,23 +1,25 @@
-import React from 'react'
 import Svgs from './Svgs.js'
-import careeteSvg from '../res/img/careeteSvg.svg'
-import desktopSvg from '../res/img/desktopSvg.svg'
-import about_divider from '../res/img/about_divider.svg'
-import lang_ru from '../res/img/RU.svg'
-import lang_en from '../res/img/EN.svg'
-import lang_pl from '../res/img/PL.svg'
-import navbar_divider from '../res/img/navbar_divider.svg'
+import careeteSvg from '../../../res/img/careeteSvg.svg'
+import desktopSvg from '../../../res/img/desktopSvg.svg'
+import about_divider from '../../../res/img/about_divider.svg'
+import lang_ru from '../../../res/img/RU.svg'
+import lang_en from '../../../res/img/EN.svg'
+import lang_pl from '../../../res/img/PL.svg'
 import Particles from "react-tsparticles";
-import Settings from "./Settings"
+import ParticlesToggle from "../../ParticlesToggle"
 import { FiMenu } from "react-icons/fi";
+import NavbarDesktop from "../../NavbarDesktop"
+
 
 
 
 const About = props => {
+
+
     return (
         <section className="about-wrapper section" id="about-section" data-anchor="about">
-            {window.innerWidth > 1160 && <Settings particles={props.particlesRefAbout} setParticlesPaused={props.setParticlesPaused} particlesPaused={props.particlesPaused}/>}
-            {window.innerWidth < 450 && <FiMenu id="menu-btn" size="35" className='menu-btn' color='#fff'/> }
+            {window.innerWidth > 1280 && <ParticlesToggle particlesRef={props.particlesRefAbout}/>}
+            {window.innerWidth < 450 && <div className='menu-btn' ref={props.toggleNavBtn}><FiMenu size="35" color='#fff'/></div> }
             <div className="section-name"><span className='side-section-name'>about</span></div>
             <div className="about__aboutme">
                 <p>I am a CS Student,</p>
@@ -29,7 +31,7 @@ const About = props => {
             <div className="about__divider"><img src={about_divider} alt='divider'></img></div>
             <div className="about__skillsTitle"><h2>skills</h2></div>
             <div className="about__skillsContent">
-                < Svgs />
+                <Svgs />
                 <div className="about__softSkills">
                     <ul>
                         <li>Self-teaching</li>
@@ -37,7 +39,6 @@ const About = props => {
                         <li>Highly organized</li>
                         <li>Critical thinking</li>
                     </ul>
-                    
                 </div>
             </div>
             <div className="about__languages">
@@ -48,18 +49,11 @@ const About = props => {
                     <img src={lang_pl} alt="pl"></img>
                 </div>
             </div>
-            <div className='about__navbar'>
-                {window.innerWidth > 450 && <div className='navbarContainer'>
-                    <a href='#intro'><span className="nav-intro">home</span></a>
-                    <img src={navbar_divider} alt="divider"></img>
-                    <a href='#about'><span className="nav-about nav-active">about</span></a>
-                    <img src={navbar_divider} alt="divider"></img>
-                    <a href='#projects'><span className="nav-projects">projects</span></a>
-                    <img src={navbar_divider} alt="divider"></img>
-                    <a href='#contact'><span className="nav-contact">contact</span></a>
-                </div>}
-            </div>
-            <div className='openNav'></div>
+            {window.innerWidth > 450 && (
+                <div className='about__navbar'>
+                    <NavbarDesktop page="about"/>
+                </div>
+            )}
             <Particles id="tsparticles1" className="particles" container={props.particlesRefAbout} options={props.optionsAbout}/>
         </section>
     )
