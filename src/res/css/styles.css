@@ -206,10 +206,8 @@ a {
           transform: translate(-50%, -50%);
   height: 100%;
   width: 177.77777778vh;
-  /* 100 * 16 / 9 */
   min-width: 100%;
   min-height: 56.25vw;
-  /* 100 * 9 / 16 */
   z-index: -1;
 }
 
@@ -953,10 +951,6 @@ a {
   }
 }
 
-#menu-btn {
-  display: none;
-}
-
 .projectCard {
   position: relative;
   width: 46%;
@@ -1342,14 +1336,14 @@ a {
 }
 
 @media only screen and (max-width: 450px) {
-  #menu-btn {
+  .menu-btn {
     display: unset;
     color: black;
     position: absolute;
     top: 10px;
     right: 10px;
   }
-  #menu-btn * {
+  .menu-btn * {
     pointer-events: none;
   }
   .fp-slides {
