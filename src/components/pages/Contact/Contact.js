@@ -42,8 +42,8 @@ const Contact = (props) => {
             </div>
             <div class="contact__footerLinks">
                 <a href='https://github.com/vetusst' target='_blank' rel='noreferrer'><FaGithub size='cssSize'/></a>
-                <a href='https://www.linkedin.com/' target='_blank' rel='noreferrer'><FaLinkedin size='cssSize'/></a>
-                <a href='https://www.facebook.com/' target='_blank' rel='noreferrer'><FaFacebookSquare size='cssSize'/></a>
+                <a href='https://www.linkedin.com/in/daniil-melnikav/' target='_blank' rel='noreferrer'><FaLinkedin size='cssSize'/></a>
+                <a href='https://www.facebook.com/whydoyouneedmyfacebook' target='_blank' rel='noreferrer'><FaFacebookSquare size='cssSize'/></a>
             </div>
             {window.innerWidth > 450 && 
                 <div class="contact__navbar">
